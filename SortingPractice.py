@@ -1,11 +1,11 @@
-#1a What is the time complexity for the worst case?
+#1 What is the time complexity for the worst case?
 '''
 In the worst case, each pancake needs to be flipped two times. Once to bring it to the top,
 and another time to bring it to the bottom. However, the second to last one would need only one
 flip, and the very last one would not need to be flipped at all. So T(n) = 2(n-2) + 1 = 2n - 3. 
 '''
 
-#1b Pancake Sort
+#1 Pancake Sort
 
 #Finds the largest pancake
 def largestPC(stack,size): 
